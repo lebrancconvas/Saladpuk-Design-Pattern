@@ -5,4 +5,8 @@ public class Warrior implements GameCharacter{
 	public void attack() {
 		System.out.println("Warrior attacked."); 
 	}
+
+	public void evade() {
+		System.out.println("Warrior evaded."); 
+	}
 }

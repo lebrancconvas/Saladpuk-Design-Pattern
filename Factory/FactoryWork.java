@@ -8,6 +8,8 @@ public class FactoryWork {
 		Naduin.attack(); 
 		
 		GameCharacter Manchury = gamechar.getCharacter("MAGE");
-		Manchury.attack(); 
+		Manchury.attack();
+		
+		Naduin.evade(); 
 	}
 }
